@@ -10,6 +10,11 @@ module.exports = {
       'Montserrat': ['Montserrat', 'sans-serif']
     },
     extend: {
+      height: {
+        '128': '32rem',
+        '160': '40rem',
+        '192': '48rem'
+      },
       backgroundImage: {
         'sanFrancisco': "url('../images/sanFrancisco.jpg')",
         'sanFranciscoDesktop': "url('../images/sanFranciscoDesktop.jpg')",
@@ -32,14 +37,14 @@ module.exports = {
       'primary': '#CC2D4A',
       'secondary': '#8FA206',
       'terciary': '#61AEC9',
-      'footer': '#FCFBFB',
+      'footer': '#F3F4F6',
       'gray-900': '#111827',
       'gray-800': '#1F2937',
       'gray-700': '#374151',
       'gray-300': '#D1D5DB',
     }),
     textColor: {
-      'footer': '#CBCBCB',
+      'footer': '#9FA5BF',
       'primary': '#CC2D4A',
       'secondary': '#8FA206',
       'terciary': '#61AEC9',
